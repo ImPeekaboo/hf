@@ -1,0 +1,11 @@
+:7860
+
+log {
+	level ERROR
+	output stderr
+}
+
+file_server /* {
+        root /app
+        browse
+}
